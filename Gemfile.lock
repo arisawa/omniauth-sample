@@ -1,4 +1,17 @@
 GIT
+  remote: git://github.com/plataformatec/devise.git
+  revision: 1d8890b77372b9c4fd3ec8e9b4963d76774ed33c
+  branch: lm-rails-4-2
+  specs:
+    devise (3.3.0)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      responders
+      thread_safe (~> 0.1)
+      warden (~> 1.2.3)
+
+GIT
   remote: https://github.com/plataformatec/simple_form
   revision: c679153ee99aefa39a7583564f2cd4bf9c0ca00b
   specs:
@@ -45,6 +58,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.0)
+    bcrypt (3.1.9)
     better_errors (2.1.1)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
@@ -137,6 +151,7 @@ GEM
     notiffany (0.0.3)
       nenv (~> 0.1)
       shellany (~> 0.0)
+    orm_adapter (0.5.0)
     pg (0.18.1)
     pry (0.10.1)
       coderay (~> 1.1.0)
@@ -256,6 +271,8 @@ GEM
     unicode-display_width (0.1.1)
     view_source_map (0.1.0)
       rails (>= 3.2)
+    warden (1.2.3)
+      rack (>= 1.0)
     web-console (2.0.0)
       activemodel (~> 4.0)
       binding_of_caller (>= 0.7.2)
@@ -272,6 +289,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   database_cleaner
+  devise!
   factory_girl_rails
   guard-bundler
   guard-rails
