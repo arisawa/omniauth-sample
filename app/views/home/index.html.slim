@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title OAuth test
+
+  body
+    h1 Facebook Login
+
+    #content
+      p = link_to 'Facebook Login', user_omniauth_authorize_path(:facebook)
