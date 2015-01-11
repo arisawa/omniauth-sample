@@ -13,6 +13,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'devise', github: 'plataformatec/devise', branch: 'lm-rails-4-2'
+gem 'omniauth-facebook'
 
 gem 'slim'
 gem 'simple_form', git: 'https://github.com/plataformatec/simple_form'
